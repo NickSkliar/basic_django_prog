@@ -3,6 +3,6 @@
 
 # Exclude
 !applications/
+!core/
 !manage.py
 !requirements.txt
-!core/
