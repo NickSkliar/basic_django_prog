@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="Black">
+    <option name="sdkUUID" value="15216c0b-f54a-43ad-8350-1c82e34c5f45" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (basic_django_prog)" project-jdk-type="Python SDK" />
 </project>

@@ -19,4 +19,4 @@ pyupgrade==3.9.0
 
 
 #optional
-
+Django==4.2.3

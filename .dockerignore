@@ -2,8 +2,7 @@
 **
 
 # Exclude
-!app
-!run.py
+!applications/
+!manage.py
 !requirements.txt
-!files_input
-!files_output
+!core/

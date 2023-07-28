@@ -1,5 +1,7 @@
 #используються хуки общепринятые, с серверов
 
+exclude: core/
+
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
@@ -8,7 +10,7 @@ repos:
     -   id: end-of-file-fixer # пустая строка в конце файла
     -   id: check-yaml # проверка синтаксиса yaml файлов
     -   id: debug-statements # проверка отладочных операторов, например print
-    -   id: double-quote-string-fixer # переделывает одинарные кавычки в двойные
+#    -   id: double-quote-string-fixer # переделывает одинарные кавычки в двойные
     -   id: name-tests-test # проверяет имена тестовых функция с общепринятыми
 #    -   id: requirements-txt-fixer # форматирует удобненько
 
@@ -34,9 +36,9 @@ repos:
     -   id: pyupgrade # обновления для кода для совместимости
         args: [--py38-plus]
 
-- repo: https://github.com/psf/black
-  rev: 23.7.0
-  hooks:
+-   repo: https://github.com/psf/black
+    rev: 23.7.0
+    hooks:
     - id: black # форматор кода
 
 -   repo: https://github.com/pre-commit/mirrors-autopep8
